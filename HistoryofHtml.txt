@@ -1,0 +1,19 @@
+History of HTML
+
+
+STML  -> Standart Text Markup Language
+
+
+HTML --> 1993
+HyperText Markup Language
+Tim Berners Lee   -> European Organization for Nuclear Research
+
+
+W3C
+
+HTML 4.01 --> 2000
+XML + HTML --> XHTML
+
+HTML5 --> 2014
+
+

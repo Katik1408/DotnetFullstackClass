@@ -1,0 +1,51 @@
+
+h1{
+    color:green;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid black;
+    background-color: red;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid black;
+    
+}
+
+.backg{
+    background-color: lightpink;
+}
+
+#myid{
+    color: lightsalmon;
+}
+
+.jumbotron{
+    background-color: lightsalmon;
+}
+
+
+
+.input-background {
+    background-color: blue;
+}
+.input-backg2{
+    background-color: red;
+}
+table, tr,td{
+    border: 1px solid black;
+    padding : 10px;
+    margin : 50px;
+
+}

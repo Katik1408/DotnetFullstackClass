@@ -1,0 +1,11 @@
+
+Tools/Software
+
+HTML --- CSS ---- JavaScript----- C#
+
+
+Visual Studio Code ----> Front End
+ 
+Visual Studio Community ---> BackEnd
+
+SSMS --> SQLServer Management Studio ---> Database

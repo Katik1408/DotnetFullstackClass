@@ -1,0 +1,25 @@
+Syllabus ---- Web App Fullstack Development
+-----------
+
+Front-End Technology
+---------------
+HTML -- History ---> HTML5
+CSS3
+JavaScript -- ECMAScript 2016
+Angular
+	AngularJS	Angular	
+	1.0 ---- 1.9	2.0--->till today 10
+Latest Version ---> Angular 10
+
+Backend Technology
+
+C#
+Asp.Net Basics
+Asp.Net MVC Core --> .Net Core --> 3.1 --> 5
+
+
+Database
+-----------
+Microsoft SQL Server
+MongoDB
+
