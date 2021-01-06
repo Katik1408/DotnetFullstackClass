@@ -1,15 +1,15 @@
-// console.log('This is JS');
+console.log('This is JS');
 
-// alert('This is from App.js file');
+alert('This is from App.js file');
 
-//  let result = prompt('Your Name');
+ let result = prompt('Your Name');
 
-//  console.log(result);
+ console.log(result);
 
 
-// let a = 5;
+let a = 5;
 
-// console.log(a);
+console.log(a);
 
 let a = 5;
 
