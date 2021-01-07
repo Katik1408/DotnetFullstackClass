@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+        <form>
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <label >Enter a number</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="number" id="num" class="form-control" maxlength="2" />    
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-primary" onclick="window.printTable()">Calculate</button>
+                </div>
+            </div>
+
+            <div class="space">
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="fname" id="fname" >First Name</label>
+                </div>
+                <div class="col-md-3">
+                    <input placeholder="Enter First Name" onkeypress="window.showInfo(this)"  class="form-control" id="fname" type="text"/>
+                </div>
+                <div class="col-md-3">
+                    <p class="info" id="info" ></p>
+                </div>
+            </div>
+
+
+            <div class="row start">
+                <div class="col-md-3">
+                Enter First Number    
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="num1" />
+                </div>
+            </div>
+            <div class="row start">
+                
+                <div class="col-md-3">
+                    Enter Second Number    
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="num1" />
+                    </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-3">
+                        <button type="button" class="btn btn-primary" onclick="window.mul(document.getElementById('num1').value,document.getElementById('num2').value)">Calculate</button>
+                    </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-3">
+                        <p id="result"> </p>
+                    </div>
+            </div>
+
+            
+
+        </form>
+
+        <div class="row start">
+            <div class="col-md-12">
+                <table class="table">
+                    <tr>
+                        <th>
+                            Number
+                        </th>
+                        <th>
+                          Multipication Operator
+                        </th>
+                        <th>
+                            Number
+                        </th>
+                        <th>
+                            Assignment Operator
+                        </th>
+                        <th>
+                            Result
+                        </th>
+                        
+                    </tr>
+                    <tr>
+                        <td id="iNum">
+                            
+                        </td>
+                        <td>
+                          *
+                        </td>
+                        <td id="multiple" >
+                            
+                        </td>
+                        <td>
+                            =
+                        </td>
+                        <td id="rNum">
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <input type="text" id="enter" onblur="window.clearScreen()" onkeypress="window.showChars(event)" />
+    <p id="demo" ></p>
+
+    
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+        <script src="app.js" async defer></script>
+    </body>
+</html>

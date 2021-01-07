@@ -1,0 +1,26 @@
+.container{
+    margin-top: 20px;
+}
+.start{
+    margin-top: 25px;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+tr:nth-child(odd){
+    background-color: burlywood;
+}
+.space{
+    margin-top: 50px;
+}
+
+.info{
+    font-size: 13px;
+    font-style: oblique;
+    font-weight: bold;
+    color: coral;
+    margin-top: 7px;
+
+}
