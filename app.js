@@ -1,180 +1,256 @@
-// // console.log('This is JS');
+// // // console.log('This is JS');
 
-// // alert('This is from App.js file');
+// // // alert('This is from App.js file');
 
-// //  let result = prompt('Your Name');
+// // //  let result = prompt('Your Name');
 
-// //  console.log(result);
+// // //  console.log(result);
 
-
-// // let a = 5;
-
-// // console.log(a);
 
 // // // let a = 5;
 
-// // console.log(typeof(a));
+// // // console.log(a);
 
-// // let str = 'Hello';
+// // // // let a = 5;
 
-// // console.log(str);
+// // // console.log(typeof(a));
 
-// // console.log(typeof(str));
+// // // let str = 'Hello';
 
-// // let isApproved = false;
+// // // console.log(str);
 
-// // console.log(typeof(isApproved));
+// // // console.log(typeof(str));
 
+// // // let isApproved = false;
 
-// // let firstName = undefined;
-
-// // console.log(typeof(firstName));
-
+// // // console.log(typeof(isApproved));
 
 
-// // let lastName = null;
+// // // let firstName = undefined;
 
-// // console.log(typeof(lastName));
+// // // console.log(typeof(firstName));
 
 
 
+// // // let lastName = null;
+
+// // // console.log(typeof(lastName));
 
 
-// function showDate(){
-//     document.getElementById('cdate').innerHTML = new Date();
-// }
 
 
-// // window.showDate = function(){
+
+// // function showDate(){
 // //     document.getElementById('cdate').innerHTML = new Date();
 // // }
 
 
-// function printTable(){
-//     let num;
-//     num = document.getElementById('num').value;
-//     for(let i=1;i<=10;i++){
-//         let num1,num2;
-//         num1 = document.getElementById('iNum');
-//         num1.innerHTML += num +"<br />";
+// // // window.showDate = function(){
+// // //     document.getElementById('cdate').innerHTML = new Date();
+// // // }
 
 
-//         num2 = document.getElementById('multiple');
-//         num2.innerHTML += i +"<br />" ;
+// // function printTable(){
+// //     let num;
+// //     num = document.getElementById('num').value;
+// //     for(let i=1;i<=10;i++){
+// //         let num1,num2;
+// //         num1 = document.getElementById('iNum');
+// //         num1.innerHTML += num +"<br />";
+
+
+// //         num2 = document.getElementById('multiple');
+// //         num2.innerHTML += i +"<br />" ;
         
         
-//         let res = document.getElementById('rNum');
+// //         let res = document.getElementById('rNum');
         
-//         res.innerHTML += (num*i) +"<br />";
+// //         res.innerHTML += (num*i) +"<br />";
+// //     }
+// // }
+
+
+// // function showInfo(obj){
+// //     console.log(obj);
+// //     document.getElementById('info').innerHTML = 'FirstName should name have any space';
+// // }
+
+
+// // function mul(p1,p2){
+
+// //     console.log(p1+" "+p2);
+
+// // document.getElementById('result').innerHTML =  p1*p2;
+// // }
+
+
+
+
+
+// // function showChars(event){
+// //     let x = event.keyCode;
+// //     document.getElementById('demo').innerHTML += String.fromCharCode(x);
+// // }
+
+// // function clearScreen(){
+// // let x = document.getElementById('demo');
+// // console.log(x);
+// // if(x.contains(String.fromCharCode())){
+// //     document.getElementById('demo').innerHTML = ' ';
+// // }
+// // }
+
+
+
+// // let arr = [1,2,3,4,5];
+
+// // let ar =[1,'two',true,null];
+
+
+// // console.log('Length of ar ' +ar.length);
+
+
+
+// // console.log('ar Array-----------')
+
+
+// // for(let i = 0;i<ar.length;i++){
+// //     console.log(ar[i]);
+// // }
+
+
+// // console.log('-----------')
+
+
+// // // console.log('Array first value '+ arr[0]);
+// // // console.log(arr[1]);
+
+
+// // for(let i =0;i<5;i++){
+// //     console.log(arr[i]);
+// // }
+
+// // console.log('while loop-----------')
+
+// // let i=0;
+// // while(i<5){
+// //     console.log(arr[i]);
+// //     i++;
+// // }
+
+
+// // console.log('Foreach--------')
+
+// // arr.forEach(ele=>{
+// //     console.log(ele);
+// // })
+
+
+// // function add(){
+
+// //     let a,b,c;
+// //     a = 5;
+// //     b = 6;
+// //     c = a+b;
+// //     console.log(c);
+// // }
+
+// // function add(num1,num2){
+// //     let c = num1+num2;
+// //     console.log(c);
+// // }
+
+// // function printArray(){
+// //     add(3,4);
+// //     let arr = ['One',2,3,4];
+
+// //     arr.forEach(e=>{
+// //         console.log(e);
+// //     })
+// // }
+
+
+
+// //  printArray();
+//  // add();
+
+// //  function showTime(){
+// //     document.getElementById("time").innerHTML = new Date();
+// //  }
+
+//  let person = {
+//      firstName: "Josh",
+//      age:30,
+//      contact:111111
+//  }
+
+//  a = 5;
+ 
+//  class Person{
+
+//     constructor(){
+//         console.log("Inside Constructor of Person");
 //     }
+//     getPersonData(){
+//         let a = 9;
+//         console.log("Inside PersonData Method");
+//     }    
+//  }
+// a = 5;
+
+//  let p = new Person();
+
+//  p.getPersonData();
+
+
+//  function a(a){
+//      return a; 
+//  }
+
+//  (a) => a;
+
+
+
+// function add(a,b){
+//     return a+b;
 // }
 
+// let res  = (a,b) => a+b;
+// console.log(res(5,6));
 
-// function showInfo(obj){
-//     console.log(obj);
-//     document.getElementById('info').innerHTML = 'FirstName should name have any space';
+
+
+
+
+
+
+
+// function add(a,b){
+//     return a+b;
 // }
 
+// let result  = a => a;
 
-// function mul(p1,p2){
+// console.log(result(5,6));
 
-//     console.log(p1+" "+p2);
-
-// document.getElementById('result').innerHTML =  p1*p2;
-// }
-
-
-
-
-
-// function showChars(event){
-//     let x = event.keyCode;
-//     document.getElementById('demo').innerHTML += String.fromCharCode(x);
-// }
-
-// function clearScreen(){
-// let x = document.getElementById('demo');
-// console.log(x);
-// if(x.contains(String.fromCharCode())){
-//     document.getElementById('demo').innerHTML = ' ';
-// }
-// }
-
-
-
-// let arr = [1,2,3,4,5];
-
-// let ar =[1,'two',true,null];
-
-
-// console.log('Length of ar ' +ar.length);
-
-
-
-// console.log('ar Array-----------')
-
-
-// for(let i = 0;i<ar.length;i++){
-//     console.log(ar[i]);
-// }
-
-
-// console.log('-----------')
-
-
-// // console.log('Array first value '+ arr[0]);
-// // console.log(arr[1]);
-
-
-// for(let i =0;i<5;i++){
-//     console.log(arr[i]);
-// }
-
-// console.log('while loop-----------')
-
-// let i=0;
-// while(i<5){
-//     console.log(arr[i]);
-//     i++;
-// }
-
-
-// console.log('Foreach--------')
-
-// arr.forEach(ele=>{
-//     console.log(ele);
-// })
-
-
-// function add(){
-
-//     let a,b,c;
-//     a = 5;
-//     b = 6;
-//     c = a+b;
-//     console.log(c);
-// }
-
-function add(num1,num2){
-    let c = num1+num2;
-    console.log(c);
+function showTime(){
+    document.getElementById("time").innerHTML = new Date();
 }
 
-function printArray(){
-    add(3,4);
-    let arr = ['One',2,3,4];
-
-    arr.forEach(e=>{
-        console.log(e);
-    })
+function checkUserName(){
+    document.getElementById("info").innerHTML = "Username cannot have space";
 }
 
 
 
- printArray();
 
 
- // add();
+
+
+
+
+
+
 
 
 

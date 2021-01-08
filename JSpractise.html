@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
 </head>
-<body>
+<body >
+
+    <div id="time"></div>
+
+    <form>
+        <table>
+            <tr>
+                <td>
+                    UserName
+                </td>
+                <td>
+                    <input type="text" id="uname" onkeypress="checkUserName()" />
+                </td>
+                <td>
+                    <p id="info" on></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email Id
+                </td>
+                <td>
+                    <input type="email" id="email" />
+                </td>
+            </tr>
+        </table> 
+    </form>
+
+
     <script src="app.js"></script>
 </body>
 </html>

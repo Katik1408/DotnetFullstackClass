@@ -1,4 +1,4 @@
-
+/* 
 h1{
     color:green;
 }
@@ -48,4 +48,14 @@ table, tr,td{
     padding : 10px;
     margin : 50px;
 
+} */
+
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
 }
+
+
+
+
