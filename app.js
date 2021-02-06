@@ -233,13 +233,77 @@
 
 // console.log(result(5,6));
 
-function showTime(){
-    document.getElementById("time").innerHTML = new Date();
+// function showTime(){
+//     document.getElementById("time").innerHTML = new Date();
+// }
+
+// function checkUserName(){
+//     let a = document.getElementById("info").innerHTML = "Username cannot have space";
+// console.log(a);
+// }
+
+// checkUserName();
+
+
+
+// function add(a,b){
+    
+//     let c;
+//     c = a+b;
+//     console.log(c);
+// }
+// add(6,7);
+
+
+
+function validateForm(){
+
+    let username = window.document.getElementById('txtUname');
+    let puname  = document.getElementById('uname');
+    let emailid = document.getElementById('txteid');
+
+    if(username.value == ""){
+        username.style.border = "2px solid red"
+        puname.innerHTML = 'Username cant be empty';
+        puname.classList.add('text-danger');
+        return false;
+    }
+    if(emailid.value == ""){
+        
+    }
+
+
 }
 
-function checkUserName(){
-    document.getElementById("info").innerHTML = "Username cannot have space";
-}
+// function checkName(){
+//     let username = window.document.getElementById('txtUname');
+//     let pusername = document.getElementById('uname');
+//     console.log(pusername);
+//     console.log(username);
+//     username.style.background ="#fc5c65";
+//     username.style.border = "5px solid  #eb3b5a";
+
+//     pusername.innerHTML = 'Username cannot have spaces';
+//     pusername.classList.add('text-danger');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

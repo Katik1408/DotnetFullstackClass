@@ -1,0 +1,55 @@
+Angular
+----------
+
+Angular is a framework
+	------> Developed by Google
+
+Html, CSS and JavaScript ----> TypeScript
+
+
+Angular 1.0  -----> AngularJS
+			----> Injected directly inside the html
+	1.0------1.9 ----> AngularJS --> is not a framework
+
+
+Version 2.0+-----> Angular  ---> is a Framework
+Current version is Angular 11
+	----> Build on the top of JavaScript
+	----> It runs on the top of JavaScriptEngine
+
+Browser Engine ----> Chrome --> V8 Engine
+
+
+Ryan Dhall
+
+-----> Node 
+
+Inorder to install Angular Framework we have to install Node into the system
+	---> https://nodejs.org/en/download/
+
+Command to install Angular
+	-----> npm install -g @angular/cli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
