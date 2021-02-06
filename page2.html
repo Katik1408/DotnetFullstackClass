@@ -33,6 +33,9 @@
         crossorigin="anonymous"
       ></script>
       <script src="app.js" ></script>
+
+    
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -63,7 +66,7 @@
                   <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                 <button class="btn" onclick="logout()" >Logout</button>
                 </li>
               </ul>
               <span class="navbar-text"> <a href="register.html"> Register </a> </span>
@@ -71,11 +74,22 @@
           </nav>
       
 
-          <h1>
-              Welcome to my site
-          </h1>
 
-          
+          <h1 id="uname"></h1>
+
+          <script>
+            let uname  = sessionStorage.getItem('username');
+            
+            document.getElementById('uname').innerHTML = uname;
+  
+            function logout(){
+                sessionStorage.clear();
+                window.location.href = "main.html"
+            }
+
+
+        </script>
+  
 
 
 
